@@ -1,26 +1,19 @@
-a{ 
-    display: none !important;
-    color: #696767;
-    visibility: hidden !important;
-    z-index: -9 !important;
-    color: #ffffff !important;
+#map{
+    max-width: 900px;
+    max-height: 900px;
+    aspect-ratio: 1 / 1;
+    height: 100dvh;
+    width: 100vw;
 }
 
-.cover {
-    background: white;
-    position: absolute;
-    left: 35%;
-    top: 65%;
-    z-index: 99999999999999999999;
-    width: 500px;
-    height: 30px;
+.map_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-}
-
-@media only screen and (min-width : 480px){
-    .cover {
-        left: 35%;
-        top: 26%;
-        height: 30px;
-    }
+    /* max-width: 900px;
+    max-height: 900px;
+    aspect-ratio: 2 / 2; */
+    height: 100dvh;
+    width: 100vw;
 }
