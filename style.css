@@ -1,0 +1,26 @@
+a{ 
+    display: none !important;
+    color: #696767;
+    visibility: hidden !important;
+    z-index: -9 !important;
+    color: #ffffff !important;
+}
+
+.cover {
+    background: white;
+    position: absolute;
+    left: 35%;
+    top: 65%;
+    z-index: 99999999999999999999;
+    width: 500px;
+    height: 30px;
+
+}
+
+@media only screen and (min-width : 480px){
+    .cover {
+        left: 35%;
+        top: 26%;
+        height: 30px;
+    }
+}
